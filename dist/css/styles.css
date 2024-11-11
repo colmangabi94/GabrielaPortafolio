@@ -90,7 +90,12 @@
     scroll-behavior: smooth;
   }
 }
-
+.perfil-redondo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -463,7 +468,7 @@ legend + * {
 ::file-selector-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} 
 
 output {
   display: inline-block;
